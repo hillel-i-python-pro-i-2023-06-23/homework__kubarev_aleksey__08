@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return f"<h3> Homework #8 (Kubarev Aleksey) </h2>"
+    return "Homework #8 (Kubarev Aleksey)"
 
 
 @app.route("/get-content")
